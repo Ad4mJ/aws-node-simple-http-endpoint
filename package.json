@@ -1,0 +1,14 @@
+{
+  "name": "aws-serve-simple-http-endpoint",
+  "version": "1.0.0",
+  "description": "Example demonstrates how to setup a simple HTTP GET endpoint",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "debug": "serverless offlibe",
+    "test": "serverless invoke local --function currentTime"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.31.3"
+  }
+}
